@@ -1,0 +1,38 @@
+{
+ "actions": [],
+ "creation": "2023-01-10 20:29:42.421081",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sales_order",
+  "open"
+ ],
+ "fields": [
+  {
+   "fieldname": "sales_order",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Sales Order",
+   "options": "Sales Order"
+  },
+  {
+   "fieldname": "open",
+   "fieldtype": "Button",
+   "in_list_view": 1,
+   "label": "Open"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-01-10 21:38:21.718961",
+ "modified_by": "Administrator",
+ "module": "Happenize App",
+ "name": "Sales Order Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

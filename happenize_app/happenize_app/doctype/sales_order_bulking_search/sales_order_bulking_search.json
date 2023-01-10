@@ -1,0 +1,66 @@
+{
+ "actions": [],
+ "autoname": "naming_series:",
+ "creation": "2023-01-10 20:17:49.094793",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "excel_sheet",
+  "section_break_3",
+  "sales_order_details"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Series",
+   "options": "SO-BUL-S-.YYYY.",
+   "reqd": 1
+  },
+  {
+   "fieldname": "excel_sheet",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "Excel Sheet",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "depends_on": "eval:doc.excel_sheet",
+   "fieldname": "sales_order_details",
+   "fieldtype": "Table",
+   "label": "Sales Order Details",
+   "options": "Sales Order Details"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-01-10 20:30:51.281145",
+ "modified_by": "Administrator",
+ "module": "Happenize App",
+ "name": "Sales Order Bulking Search",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
