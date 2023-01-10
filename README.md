@@ -9,7 +9,7 @@ MIT
 #### Installation Guide
 ```
 $ bench get-app https://github.com/AhmadReda/happenize_app.git
-$ bench bench install-app happenize_app
+$ bench install-app happenize_app
 ```
 #### How It Work
 ```
