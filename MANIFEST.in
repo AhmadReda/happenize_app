@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include happenize_app *.css
+recursive-include happenize_app *.csv
+recursive-include happenize_app *.html
+recursive-include happenize_app *.ico
+recursive-include happenize_app *.js
+recursive-include happenize_app *.json
+recursive-include happenize_app *.md
+recursive-include happenize_app *.png
+recursive-include happenize_app *.py
+recursive-include happenize_app *.svg
+recursive-include happenize_app *.txt
+recursive-exclude happenize_app *.pyc
